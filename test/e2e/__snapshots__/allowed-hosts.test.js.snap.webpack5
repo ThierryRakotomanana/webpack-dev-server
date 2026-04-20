@@ -1,5 +1,11 @@
 // Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
 
+exports[`allowed hosts check host headers should NOT allow websocket connection when origin is a non-loopback address mismatching host (loopback fix must not widen trust): console messages 1`] = `[]`;
+
+exports[`allowed hosts check host headers should NOT allow websocket connection when origin is a non-loopback address mismatching host (loopback fix must not widen trust): page errors 1`] = `[]`;
+
+exports[`allowed hosts check host headers should NOT allow websocket connection when origin is a non-loopback address mismatching host (loopback fix must not widen trust): response status 1`] = `200`;
+
 exports[`allowed hosts check host headers should allow hosts in allowedHosts: console messages 1`] = `[]`;
 
 exports[`allowed hosts check host headers should allow hosts in allowedHosts: page errors 1`] = `[]`;
@@ -11,6 +17,24 @@ exports[`allowed hosts check host headers should allow hosts that pass a wildcar
 exports[`allowed hosts check host headers should allow hosts that pass a wildcard in allowedHosts: page errors 1`] = `[]`;
 
 exports[`allowed hosts check host headers should allow hosts that pass a wildcard in allowedHosts: response status 1`] = `200`;
+
+exports[`allowed hosts check host headers should allow websocket connection when host is 'localhost' but resolves to '::1' (loopback alias mismatch): console messages 1`] = `[]`;
+
+exports[`allowed hosts check host headers should allow websocket connection when host is 'localhost' but resolves to '::1' (loopback alias mismatch): page errors 1`] = `[]`;
+
+exports[`allowed hosts check host headers should allow websocket connection when host is 'localhost' but resolves to '::1' (loopback alias mismatch): response status 1`] = `200`;
+
+exports[`allowed hosts check host headers should allow websocket connection when host is 'localhost' but resolves to '127.0.0.1' (loopback alias mismatch): console messages 1`] = `[]`;
+
+exports[`allowed hosts check host headers should allow websocket connection when host is 'localhost' but resolves to '127.0.0.1' (loopback alias mismatch): page errors 1`] = `[]`;
+
+exports[`allowed hosts check host headers should allow websocket connection when host is 'localhost' but resolves to '127.0.0.1' (loopback alias mismatch): response status 1`] = `200`;
+
+exports[`allowed hosts check host headers should allow websocket connection when origin is '127.0.0.1' but host is 'localhost' (reverse loopback alias mismatch): console messages 1`] = `[]`;
+
+exports[`allowed hosts check host headers should allow websocket connection when origin is '127.0.0.1' but host is 'localhost' (reverse loopback alias mismatch): page errors 1`] = `[]`;
+
+exports[`allowed hosts check host headers should allow websocket connection when origin is '127.0.0.1' but host is 'localhost' (reverse loopback alias mismatch): response status 1`] = `200`;
 
 exports[`allowed hosts check host headers should always allow \`localhost\` if options.allowedHosts is auto: console messages 1`] = `[]`;
 
